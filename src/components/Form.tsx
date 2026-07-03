@@ -1,10 +1,13 @@
 "use client";
 
 import { useState } from "react";
-
+// This form is used to create user details.
 export default function Form() {
   const [items, setItems] = useState<string[]>([]);
   const [inputValue, setInputValue] = useState("");
+  function dummy() {
+
+  }
 
   return (
     <div>
